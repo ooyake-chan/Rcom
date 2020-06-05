@@ -1,6 +1,5 @@
 #main-visual{
   transition: all 0.5s;
-  background-image: url(img/main-img.png);
   background-size: cover;
 }
 .top-main-visual{
@@ -55,8 +54,6 @@
       .info ul li{
         padding-left: 20px;
 	      line-height: 1.6em;
-        background: url(img/arrow-right.png) left 0px top 3px no-repeat;
-	      background-size: 15px auto;
         font-size: 14px;
       }
       .info ul li img{

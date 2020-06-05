@@ -9,7 +9,7 @@
   <title>アールコム工商株式会社</title>
 </head>
 <body>
-  <div id="main-visual">
+  <div id="main-visual" style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/main-img.png);">
     <div class="container wrapper">
       <nav class="">
         <div class="sp-menu-cover"></div>
@@ -59,9 +59,8 @@
         <h2>お知らせ</h2>
         <div class="info">
           <ul>
-            <li id="li-first"><a href="archives.html"><span>2020年1月1日</span>明けましておめでとうございます。本年も宜しくお願いします。</li></a>
-            <li><a href="archives.html"><span>2020年1月1日</span>明けましておめでとうございます。本年も宜しくお願いします。</li></a>
-            
+            <li id="li-first" style="background: url(<?php echo get_template_directory_uri(); ?>/img/arrow-right.png) left 0px top 3px no-repeat;background-size: 15px auto;"><a href="<?php get_archives(); ?>"><span>2020年1月1日</span>明けましておめでとうございます。本年も宜しくお願いします。</li></a>
+            <li id="li-first" style="background: url(<?php echo get_template_directory_uri(); ?>/img/arrow-right.png) left 0px top 3px no-repeat;background-size: 15px auto;"><a href="<?php get_archives(); ?>"><span>2020年1月1日</span>明けましておめでとうございます。本年も宜しくお願いします。</li></a>            
           </ul>
         </div>
         <div id="info-cov">
@@ -119,7 +118,7 @@
         </div>
       </div><!-- /top-product -->
       <div class="top-flow-wrap">  
-        <div id="top-flow"></div>
+        <div id="top-flow" style="  background-image: url(<?php echo get_template_directory_uri(); ?>/img/top-flow-gb.png);background-size: cover;"></div>
         <div class="flow-cover"></div>
         <a href="flow.html" class="link"></a>
         <div id="top-flow-contents">
