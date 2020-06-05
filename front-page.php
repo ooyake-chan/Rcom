@@ -3,14 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="doctor.css">
-  <link rel="stylesheet" href="topstyle.css">
-  <link rel="stylesheet" href="commonstyle.css">
   <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
-  <link rel="stylesheet" href="responsive.css">
-  <link rel="stylesheet" href="slick/slick-theme.css">
-  <link rel="stylesheet" href="slick/slick.css">
-  <script src="jquery.js"></script>
+  <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>">
+  <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.js"></script>
   <title>アールコム工商株式会社</title>
 </head>
 <body>
@@ -20,7 +15,7 @@
         <div class="sp-menu-cover"></div>
         <div class="nav-wrapper flex">
           <div id="nav-logo">
-            <a href="index.html"><img src="img/1.png" alt="Rcomロゴマーク"></a>
+            <a href="index.html"><img src="<?php echo get_template_directory_uri(); ?>/img/1.png" alt="Rcomロゴマーク"></a>
           </div>
           <div>
             <ul>
@@ -32,9 +27,9 @@
             </ul>
           </div>
           <div id="nav-contact">
-            <button class="btn contact-btn" onclick="location.href='form.html'"><img src="img/mail.png" alt="封筒のイラスト"><p>お問い合わせ</p></button>
-            <button class="btn sp-contact-btn" onclick="location.href='form.html'"><img src="img/mail.png" alt="封筒のイラスト"><p>お問い合せ</p></button>
-            <button class="btn sp-menu-btn" id="menu-show"><img src="img/menu-bar.png" alt="メニューバーのイラスト"><p>メニュー</p></button>
+            <button class="btn contact-btn" onclick="location.href='form.html'"><img src="<?php echo get_template_directory_uri(); ?>/img/mail.png" alt="封筒のイラスト"><p>お問い合わせ</p></button>
+            <button class="btn sp-contact-btn" onclick="location.href='form.html'"><img src="<?php echo get_template_directory_uri(); ?>/img/mail.png" alt="封筒のイラスト"><p>お問い合せ</p></button>
+            <button class="btn sp-menu-btn" id="menu-show"><img src="<?php echo get_template_directory_uri(); ?>/img/menu-bar.png" alt="メニューバーのイラスト"><p>メニュー</p></button>
           </div>        
         </div>
         <div class="sp-menu">
@@ -85,7 +80,7 @@
           <div class="top-product-card">
             <div class="top-product-img">
               <div class="img-wrap">
-                <img src="img/top-product-1.png" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/top-product-1.png" alt="">
                 <div class="view-more"></div>
               </div>
               <h3>アクリル加工品</h3>
@@ -97,7 +92,7 @@
           <div class="top-product-card">
             <div class="top-product-img">
               <div class="img-wrap">
-                <img src="img/top-product-2.png" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/top-product-2.png" alt="">
                 <div class="view-more"></div>
               </div>
               <h3>アクリル加工品</h3>
@@ -109,7 +104,7 @@
           <div class="top-product-card">
             <div class="top-product-img">
               <div class="img-wrap">
-                <img src="img/top-product-3.png" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/top-product-3.png" alt="">
                 <div class="view-more"></div>
               </div>
               <h3>アクリル加工品</h3>
@@ -130,7 +125,7 @@
         <div id="top-flow-contents">
           <h2>製造工程</h2>
           <p>ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストーテキストーテキストーテキストーテキスト</p>
-          <img src="img/view-more.png" alt="もっと見る">
+          <img src="<?php echo get_template_directory_uri(); ?>/img/view-more.png" alt="もっと見る">
           <a href="flow.html" class="link"></a>
         </div>
       </div><!-- top-flow -->
@@ -141,8 +136,8 @@
             <div class="top-company-img">
               <div class="cover"><div class="view-more"></div></div>
               <a href="company.html" class="link"></a>
-              <img src="img/top-comp-1.png" alt="握手している写真" class="pc-img">
-              <img src="img/sp-top-comp.png" alt="握手している写真" class="sp-img">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/top-comp-1.png" alt="握手している写真" class="pc-img">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/sp-top-comp.png" alt="握手している写真" class="sp-img">
             </div>
             <div class="company-card-contents">
               <h3>会社概要</h3>
@@ -156,8 +151,8 @@
             <div class="top-company-img">
               <div class="cover"><div class="view-more"></div></div>
               <a href="greet.html" class="link"></a>
-              <img src="img/top-comp-2.png" alt="握手している写真"class="pc-img">
-              <img src="img/sp-top-greet.png" alt="握手している写真" class="sp-img">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/top-comp-2.png" alt="握手している写真"class="pc-img">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/sp-top-greet.png" alt="握手している写真" class="sp-img">
             </div>
             <div class="company-card-contents">
               <h3>社長挨拶</h3>
@@ -171,8 +166,8 @@
             <div class="top-company-img">
               <div class="cover"><div class="view-more"></div></div>
               <a href="recruit.html" class="link"></a>
-              <img src="img/top-comp-3.png" alt="握手している写真"class="pc-img">
-              <img src="img/sp-top-rec.png" alt="握手している写真" class="sp-img">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/top-comp-3.png" alt="握手している写真"class="pc-img">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/sp-top-rec.png" alt="握手している写真" class="sp-img">
             </div>
             <div class="company-card-contents">
               <h3>採用情報</h3>
@@ -193,73 +188,25 @@
               営業時間　平日午前9時から午後18時（土日祝はお休みです）</p>
               <p>お問い合わせフォーム・Emailは24時間受け付けています<br>
               <span>Email.</span>rcom-factory@email.com</p>
-              <button class="btn contact-btn" onclick="location.href='form.html'"><img src="img/mail.png" alt="封筒のイラスト"><p>お問い合わせ</p></button>
+              <button class="btn contact-btn" onclick="location.href='form.html'"><img src="<?php echo get_template_directory_uri(); ?>/img/mail.png" alt="封筒のイラスト"><p>お問い合わせ</p></button>
             </div>
             <div id="contact-img">
-              <img src="img/contact-map.png" alt="地図" class="pc-img">
-              <img src="img/contact-map.png" alt="地図" class="sp-img">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/contact-map.png" alt="地図" class="pc-img">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/contact-map.png" alt="地図" class="sp-img">
             </div>
           </div>
         </div>
       </div><!-- top-contact -->
   </main><!-- /main -->
-  
-  <footer>
-    <div class="wrapper container">
-    <div id="foot-wrapper">
-      <div class="site-map">
-        <h3>製品紹介</h3>
-        <ul>
-          <li><a href ="product/product_acrylic.html">アクリル加工品</li></a>
-          <li><a href ="product/product_display.html">ディスプレイ</li></a>
-          <li><a href ="product/product_monitor.html">モニターディスプレイ</a></li>
-          <li><a href ="product/product_part.html">アクリルパーテーション</a></li>
-          <li><a href ="product/product_face.html">フェイスガード</a></li>
-        </ul>
-      </div>
-      <div class="site-map">
-        <h3>製造工程</h3>
-        <ul>
-          <li><a href="flow.html">ご注文から納品までのフロー</a></li>
-          <li><a href="equipment.html">加工設備</a></li>
-        </ul>
-      </div>
-      <div class="site-map">
-        <a href="company.html"><h3>会社概要</h3></a>
-        <a href="greet.html"><h3>社長挨拶</h3></a>
-        <a href="recruit.html"><h3>採用情報</h3></a>
-        <ul>
-          <li><a href="interview.html">社員インタビュー</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="comp-info">
-      <div id="footlogo">
-        <a href ="index.html"><img src="img/1.png" alt="Rcomロゴマーク"></a>
-      </div>
-      <div id="foot-phone-num">
-        <img src="img/phone.png" alt="">
-        <h3>0438-000-000</h3>
-        <p>(受付時間　午前9時から午後18時)</p>
-      </div>
-      <div id="foot-address">
-        <h3>会社所在地</h3>
-        <p>東京都町田市木祖9854-11-13</p>
-      </div>
-    </div>
-    <div class="copy-right">
-      <small>© 2020 Rcom Co,Ltd.</small>
-    </div>
-    </div>
-  </footer><!-- /footer -->
+  <?php get_footer(); ?>
 <!-- <script src="script.js"></script>   -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script type="text/javascript">
 $(function(){
   const mainImg = [
-  "img/main-img.png",
-  "img/main-img-2.png",
-  "img/main-img-3.png"
+  "<?php echo get_template_directory_uri(); ?>/img/main-img.png",
+  "<?php echo get_template_directory_uri(); ?>/img/main-img-2.png",
+  "<?php echo get_template_directory_uri(); ?>/img/main-img-3.png"
   ]
 
   const change1 = $("#explain-change-1").click(function(){
