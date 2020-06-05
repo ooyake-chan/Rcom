@@ -1,0 +1,128 @@
+.form-h2{
+  margin-top: 30px;
+  margin-bottom: 60px;
+  font-size: 21px;
+  text-align: center;
+}
+.form-wrapper{
+  width: 60%;
+  padding: 30px;
+  margin: 0 auto;
+  font-size: 16px;
+  background-color: #c9dcf1;
+}
+.form-wrapper p{
+  margin-bottom: 10px;
+}
+.form-wrapper input{
+  margin-bottom:20px;
+}
+.submit-btn{
+  width: 60%;
+  padding: 10.5px;
+  border: 2px solid #2371c7;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-color: #2371c7;
+  display: block;
+}
+.rewrite-btn{
+  padding: 10.5px;
+  border: 2px solid #ffffff;
+  margin: 0 auto;
+  margin-top: 20px;
+  color: #c72391;
+  display: block;
+}
+.btn:hover{
+  opacity: 0.5;
+}
+@media(max-width:500px){
+  .form-h2{
+    display: none;
+  }
+  .form-wrapper{
+    width: 100%;
+    padding: 1.4rem;
+    margin: 0 auto;
+    margin-top: 3.5rem;
+    font-size: 1em;
+  }
+  .form-wrapper input{
+    border: none;
+  }
+  .form-wrapper textarea{
+    border: none;
+  }
+  .submit-btn{
+    width: 90%;
+  }
+  .rewrite-btn{
+    width: 90%;
+    padding: 10.5px;
+    border: 2px solid #c72391;
+    margin-top: 2rem;
+  }
+  .btn:hover{
+    opacity: 0.5;
+  }
+}
+/* お問い合わせフォーム */
+.archives-wrapper{
+  padding: 40px;
+  border: 1px solid #707070;
+  margin-bottom: 1em;
+  border-radius: 11px;
+}
+.archive-head{
+  padding-bottom: 25px;
+  border-bottom: 1px solid #707070;
+  margin-bottom: 23px;
+}
+.archive-body p{
+  width: 70%;
+}
+time{
+  display: inline-block;
+  margin-right: 30px;
+  font-size: 0.8em;
+  color: #c72391;
+}
+.information{
+  font-size: 0.8em;
+  color: #2371c7;
+}
+.archive-head h2{
+  margin-top: 22px;
+}
+@media(max-width:500px){
+  .archives-wrapper{
+    width: 90%;
+    padding:1.5rem;
+    margin: 0 auto;
+    margin-bottom: 1em;
+  }
+  .archive-head h2{
+   width: 75%;
+   font-size: 18px;
+   line-height: 1.7rem;
+  }
+  .archive-body p{
+    width: 100%;
+    line-height: 1.5rem;
+  }
+  time{
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 0.8em;
+    color: #c72391;
+  }
+  .information{
+    font-size: 0.8em;
+    color: #2371c7;
+  }
+  .archive-head h2{
+    margin-top: 22px;
+  }
+}
+/* お知らせ */

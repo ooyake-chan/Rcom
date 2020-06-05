@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="doctor.css">
+  <link rel="stylesheet" href="commonstyle.css">
+  <link rel="stylesheet" href="flow_style.css">
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="responsive.css">
+  <script src="jquery.js"></script>
+  <link rel="stylesheet" href="css/lightbox.css">
+  <script src="js/lightbox.js" type="text/javascript"></script>
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+ 
+
+
+  <title>アールコム工商株式会社-加工設備</title>
+</head>
+<body>
+  <nav>
+    <div class="sp-menu-cover"></div>
+    <div class="nav-wrapper nav-common">
+      <div class="flex wrapper">
+        <div id="nav-logo">
+          <a href="index.html"><img src="img/1.png" alt="Rcomロゴマーク"></a>
+        </div>
+        <div>
+          <ul>
+            <li id="menu-head"><a href="product.html">製品紹介</a></li>
+            <li><a href="flow.html">製造工程</a></li>
+            <li><a href="company.html">会社概要</a></li>
+            <li><a href="greet.html">社長挨拶</a></li>
+            <li id="menu-foot"><a href="recruit.html">採用情報</a></li>
+          </ul>
+        </div>
+        <div id="nav-contact">
+          <button class="btn contact-btn" onclick="location.href='form.html'"><img src="img/mail.png" alt="封筒のイラスト"><p>お問い合わせ</p></button>
+          <button class="btn sp-contact-btn" onclick="location.href='form.html'"><img src="img/mail.png" alt="封筒のイラスト"><p>お問い合せ</p></button>
+          <button class="btn sp-menu-btn" id="menu-show"><img src="img/menu-bar.png" alt="メニューバーのイラスト"><p>メニュー</p></button>
+      </div>
+    </div>
+    </div>
+    <div class="sp-menu">
+      <ul>
+        <li><a href="product.html">製品紹介</a></li>
+        <li><a href="flow.html">製造工程</a></li>
+        <li><a href="company.html">会社概要</a></li>
+        <li><a href="greet.html">社長挨拶</a></li>
+        <li><a href="recruit.html">採用情報</a></li>
+      </ul>
+    </div>
+  </nav><!-- /nav -->
+  <main>
+    <div class="header">
+      <div class="wrapper">
+        <div class="bread">
+          <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+            <!-- 1つめ -->
+            <li itemprop="itemListElement" itemscope
+                itemtype="https://schema.org/ListItem">
+              <a itemprop="item" href="/index.html">
+                  <span itemprop="name">ホーム</span>
+              </a>
+              <meta itemprop="position" content="1" />
+            </li>
+          
+            <!-- 2つめ -->
+            <li itemprop="itemListElement" itemscope
+                itemtype="https://schema.org/ListItem">
+              <a itemprop="item" href="/flow.html">
+                  <span itemprop="name">製造工程</span>
+              </a>
+              <meta itemprop="position" content="2" />
+            </li>
+            <!-- 3つめ -->
+            <li itemprop="itemListElement" itemscope
+                itemtype="https://schema.org/ListItem">
+              <a itemprop="item" href="#"">
+                  <span itemprop="name">加工設備</span>
+              </a>
+              <meta itemprop="position" content="2" />
+            </li>
+          </ol>
+        </div>
+        <div class="clear"></div><!-- パンくずリスト -->
+        <h1>加工設備</h1>
+      </div>
+    </div><!-- header -->
+    <div class="conteiner wrapper contents">
+      <div class="contents-menu">
+        <button class="btn contents-menu-btn" onclick="location.href='flow.html'">ご注文から納品までのフロー</button>
+        <button class="btn contents-menu-btn" onclick="location.href='equipment.html'">加工設備</button>
+      </div><!-- contents-menu -->
+      <div class="equipment">
+        
+        <div class="sp-equipment pc-hide"><!-- SPサイズここから -->
+          <ul class="slider">
+            <li><img src="img/equ-1.png" alt="image01"></li>
+            <li><img src="img/equ-2.png" alt="image02"></li>
+            <li><img src="img/equ-3.png" alt="image03"></li>
+            <li><img src="img/equ-1.png" alt="image01"></li>
+            <li><img src="img/equ-2.png" alt="image02"></li>
+            <li><img src="img/equ-3.png" alt="image03"></li>
+            <li><img src="img/equ-2.png" alt="image02"></li>
+            <li><img src="img/equ-3.png" alt="image03"></li>
+        </ul>
+        </div><!-- SPサイズここまで -->
+        <div class="equ-wrapper">
+          <div class="grid-item item-1">
+            <div class="grid-img" style="background-image: url(img/equ-1.png);"></div>
+            <p class="equ-text">加工設備１<br>
+            これはこれこれこうゆうアイテム<br>
+            <a href="img/equ-1.png" rel="lightbox[group]"><span>クリックで拡大</span></a></p>
+          </div>
+
+          <div class="grid-item item-2 item-s">
+            <div class="grid-img" style="background-image: url(img/equ-2.png);"></div>
+            <p class="equ-text">加工設備2<br>
+              これはこれこれこうゆうアイテム<br>
+              <a href="img/equ-2.png" rel="lightbox[group]"><span>クリックで拡大</span></a></p>
+            </div>
+
+          <div class="grid-item item-3 item-s">
+            <div class="grid-img" style="background-image: url(img/equ-3.png);"></div>
+            <p class="equ-text">加工設備3<br>
+              これはこれこれこうゆうアイテム<br>
+              <a href="img/equ-3.png" rel="lightbox[group]"><span>クリックで拡大</span></a></p>
+            </div>
+
+          <div class="grid-item item-4 item-s">
+            <div class="grid-img" style="background-image: url(img/equ-1.png);"></div>
+            <p class="equ-text">加工設備4<br>
+              これはこれこれこうゆうアイテム<br>
+              <a href="img/equ-1.png" rel="lightbox[group]"><span>クリックで拡大</span></a></p>
+            </div>
+
+          <div class="grid-item item-5 item-s">
+            <div class="grid-img" style="background-image: url(img/equ-3.png);"></div>
+            <p class="equ-text">加工設備5<br>
+              これはこれこれこうゆうアイテム<br>
+              <a href="img/equ-3.png" rel="lightbox[group]"><span>クリックで拡大</span></a></p>
+            </div>
+          
+          <div class="grid-item item-6">
+            <div class="grid-img" style="background-image: url(img/equ-2.png);"></div>
+            <p class="equ-text">加工設備6<br>
+              これはこれこれこうゆうアイテム<br>
+              <a href="img/equ-2.png" rel="lightbox[group]"><span>クリックで拡大</span></a></p>
+            </div>
+
+        </div>
+        <div class="equ-wrapper">
+          <div class="grid-item item-1">
+            <div class="grid-img" style="background-image: url(img/equ-3.png);"></div>
+            <p class="equ-text">加工設備１<br>
+            これはこれこれこうゆうアイテム<br>
+            <a href="img/equ-3.png" rel="lightbox[group]"><span>クリックで拡大</span></a></p>
+          </div>
+
+          <div class="grid-item item-2 item-s">
+            <div class="grid-img" style="background-image: url(img/equ-2.png);"></div>
+            <p class="equ-text">加工設備2<br>
+              これはこれこれこうゆうアイテム<br>
+              <a href="img/equ-2.png" rel="lightbox[group]"><span>クリックで拡大</span></a></p>
+            </div>
+
+          <div class="grid-item item-3 item-s">
+            <div class="grid-img" style="background-image: url(img/equ-1.png);"></div>
+            <p class="equ-text">加工設備3<br>
+              これはこれこれこうゆうアイテム<br>
+              <a href="img/equ-1.png" rel="lightbox[group]"><span>クリックで拡大</span></a></p>
+            </div>
+
+          <div class="grid-item item-4 item-s">
+            <div class="grid-img" style="background-image: url(img/equ-1.png);"></div>
+            <p class="equ-text">加工設備4<br>
+              これはこれこれこうゆうアイテム<br>
+              <a href="img/equ-1.png" rel="lightbox[group]"><span>クリックで拡大</span></a></p>
+            </div>
+
+          <div class="grid-item item-5 item-s">
+            <div class="grid-img" style="background-image: url(img/equ-3.png);"></div>
+            <p class="equ-text">加工設備5<br>
+              これはこれこれこうゆうアイテム<br>
+              <a href="img/equ-3.png" rel="lightbox[group]"><span>クリックで拡大</span></a></p>
+            </div>
+          
+          <div class="grid-item item-6">
+            <div class="grid-img" style="background-image: url(img/equ-2.png);"></div>
+            <p class="equ-text">加工設備6<br>
+              これはこれこれこうゆうアイテム<br>
+              <a href="img/equ-2.png" rel="lightbox[group]"><span>クリックで拡大</span></a></p>
+            </div>
+
+        </div>
+        
+        <h2 class="underline">加工設備</h2>
+        <div id="equ-list">
+          <div class="flex">
+            <ul>
+              <li>設備　ダミーテキスト　dummytext</li>
+              <li>設備　ダミーテキスト　dummytext</li>
+              <li>設備　ダミーテキスト　dummytext</li>
+              <li>設備　ダミーテキスト　dummytext</li>
+              <li>設備　ダミーテキスト　dummytext</li>
+              <li>設備　ダミーテキスト　dummytext</li>
+              <li>設備　ダミーテキスト　dummytext</li>
+              <li>設備　ダミーテキスト　dummytext</li>
+              <li>設備　ダミーテキスト　dummytext</li>
+              <li>設備　ダミーテキスト　dummytext</li>
+              <li>設備　ダミーテキスト　dummytext</li>
+              <li>設備　ダミーテキスト　dummytext</li>
+              <li>設備　ダミーテキスト　dummytext</li>
+              <li>設備　ダミーテキスト　dummytext</li>
+            </ul>
+            <ul>
+              <li>設備　ダミーテキスト　dummytext</li>
+              <li>設備　ダミーテキスト　dummytext</li>
+              <li>設備　ダミーテキスト　dummytext</li>
+              <li>設備　ダミーテキスト　dummytext</li>
+              <li>設備　ダミーテキスト　dummytext</li>
+              <li>設備　ダミーテキスト　dummytext</li>
+              <li>設備　ダミーテキスト　dummytext</li>
+              <li>設備　ダミーテキスト　dummytext</li>
+              <li>設備　ダミーテキスト　dummytext</li>
+              <li>設備　ダミーテキスト　dummytext</li>
+              <li>設備　ダミーテキスト　dummytext</li>
+              <li>設備　ダミーテキスト　dummytext</li>
+              <li>設備　ダミーテキスト　dummytext</li>
+              <li>設備　ダミーテキスト　dummytext</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div><!-- contents -->
+  </main><!-- main -->
+
+  <footer>
+    <div class="wrapper">
+      <div id="foot-wrapper">
+        <div class="site-map">
+          <h3>製品紹介</h3>
+          <ul>
+            <li><a href ="product/product_acrylic.html">アクリル加工品</li></a>
+            <li><a href ="product/product_display.html">ディスプレイ</li></a>
+            <li><a href ="product/product_monitor.html">モニターディスプレイ</a></li>
+            <li><a href ="product/product_part.html">アクリルパーテーション</a></li>
+            <li><a href ="product/product_face.html">フェイスガード</a></li>
+          </ul>
+        </div>
+        <div class="site-map">
+          <h3>製造工程</h3>
+          <ul>
+            <li><a href="flow.html">ご注文から納品までのフロー</a></li>
+            <li><a href="equipment.html">加工設備</a></li>
+          </ul>
+        </div>
+        <div class="site-map">
+          <a href="company.html"><h3>会社概要</h3></a>
+          <a href="greet.html"><h3>社長挨拶</h3></a>
+          <a href="recruit.html"><h3>採用情報</h3></a>
+          <ul>
+            <li><a href="interview.html">社員インタビュー</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="comp-info">
+        <div id="footlogo">
+          <a href ="index.html"><img src="img/1.png" alt="Rcomロゴマーク"></a>
+        </div>
+        <div id="foot-phone-num">
+          <img src="/img/phone.png" alt="">
+          <h3>0438-000-000</h3>
+          <p>(受付時間　午前9時から午後18時)</p>
+        </div>
+        <div id="foot-address">
+          <h3>会社所在地</h3>
+          <p>東京都町田市木祖9854-11-13</p>
+        </div>
+      </div>
+      <div class="copy-right">
+        <small>© 2020 Rcom Co,Ltd.</small>
+      </div>
+    </div>
+  </footer><!-- /footer -->
+<script src="script.js"></script>  
+</body>
+</html>
