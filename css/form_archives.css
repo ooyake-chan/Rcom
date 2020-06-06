@@ -68,6 +68,26 @@
   }
 }
 /* お問い合わせフォーム */
+.data-menu li{
+  border-radius: 5px;
+  color: white;
+  padding: 11px 23px;
+  border: 2px solid #2371c7;
+  font-weight: bold;
+  background-color: #2371c7;
+  display: inline-block;
+}
+.data-menu li:hover{
+  border: 2px solid #2371c7;
+  background-color: white;
+  color: #2371c7;
+}
+.data-menu li:hover a{
+  color: #2371c7;
+}
+.data-menu a{
+  color: white;
+}
 .archives-wrapper{
   padding: 40px;
   border: 1px solid #707070;

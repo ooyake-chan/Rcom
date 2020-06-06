@@ -59,8 +59,20 @@
         <h2>お知らせ</h2>
         <div class="info">
           <ul>
-            <li id="li-first" style="background: url(<?php echo get_template_directory_uri(); ?>/img/arrow-right.png) left 0px top 3px no-repeat;background-size: 15px auto;"><a href="<?php echo the_permalink(); ?>"><span>2020年1月1日</span>明けましておめでとうございます。本年も宜しくお願いします。</li></a>
-            <li id="li-first" style="background: url(<?php echo get_template_directory_uri(); ?>/img/arrow-right.png) left 0px top 3px no-repeat;background-size: 15px auto;"><a href="<?php echo the_permalink(); ?>"><span>2020年1月1日</span>明けましておめでとうございます。本年も宜しくお願いします。</li></a>            
+          
+            <?php if(have_posts()): ?>
+            <?php while(have_posts()): the_post(); ?>
+
+            <li id="li-first" style="background: url(<?php echo get_template_directory_uri(); ?>/img/arrow-right.png) left 0px top 3px no-repeat;background-size: 15px auto;">
+            <a href="<?php the_permalink(); ?>">
+            <span><?php the_date(); ?><?php the_title(); ?></span>
+            <?php the_excerpt(); ?>
+          </li>
+        </a>
+
+            <?php endwhile; ?>
+            <?php endif; ?>
+        
           </ul>
         </div>
         <div id="info-cov">

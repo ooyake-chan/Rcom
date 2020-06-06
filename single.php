@@ -1,11 +1,17 @@
 <?php get_header(); ?> 
     <div class="conteiner wrapper contents">
-      <div class="contents-menu">
-        <button class="btn contents-menu-btn" onclick="location.href='#'">2020年</button>
-        <button class="btn contents-menu-btn" onclick="location.href='#'">2019年</button>
-        <button class="btn contents-menu-btn" onclick="location.href='#'">2018年</button>
-        <button class="btn contents-cov-btn" onclick="location.href='#'">2017年</button>
-        <button class="btn contents-cov-btn" onclick="location.href='#'">2016年</button>
+    <div class="contents-menu">
+        <ul class="data-menu">
+        <?php 
+        $get_data = wp_get_archives(array(
+        'type'=>'yearly', 
+        'show_post_count'=>true, 
+        'limit'=>20, 
+        'post_type'=>'post', 
+        'format'=>'html' ,
+        'show_post_count'=>'0'
+    ));
+    ?></ul>
       </div><!-- contents-menu -->
 
       <?php
