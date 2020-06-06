@@ -53,9 +53,9 @@
       <div class="archives-wrapper"><!-- お知らせここから -->
         <div class="archive-head">
           <p>
-            <time datetime="2020-01-01"><?php echo get_the_date(); ?></time><span class="information"><?php the_category(', '); ?></span>
+            <time><?php the_date(); ?></time><span class="information"><?php the_category(','); ?></span>
           </p>
-          <h2><?php the_permalink(); ?>"><?php the_title(); ?></h2>
+          <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
         </div>
         <div class="archive-body">
         <?php the_excerpt(); ?>
@@ -76,6 +76,4 @@
     </div><!-- contents -->
   </main><!-- main -->
 <?php get_footer(); ?>
-<script src="script.js"></script>  
-</body>
-</html>
+                

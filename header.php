@@ -7,9 +7,8 @@
   <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>">
   <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.js"></script>
   <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
-
-  <?php wp_header(); ?>
-  <title><?php wp_title('-', true, 'right'); bloginfo('name'); ?></title>
+  <?php get_header(); ?>
+  <title>アールコム工商-<?php wp_title('-', true, 'right'); bloginfo('name'); ?></title>
 </head>
 <body>
   <nav>
@@ -17,7 +16,7 @@
     <div class="nav-wrapper nav-common">
       <div class="flex wrapper">
         <div id="nav-logo">
-          <a href="index.html"><img src="<?php echo get_template_directory_uri(); ?>/img/1.png" alt="Rcomロゴマーク"></a>
+          <a href="<?php echo home_url('/'); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/1.png" alt="Rcomロゴマーク"></a>
         </div>
         <div>
           <ul>

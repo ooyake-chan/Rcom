@@ -30,7 +30,7 @@
     </div>
     <div class="comp-info">
       <div id="footlogo">
-        <a href ="index.html"><img src="<?php echo get_template_directory_uri(); ?>/img/1.png" alt="Rcomロゴマーク"></a>
+        <a href ="<?php echo home_url('/'); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/1.png" alt="Rcomロゴマーク"></a>
       </div>
       <div id="foot-phone-num">
         <img src="<?php echo get_template_directory_uri(); ?>/img/phone.png" alt="">
@@ -47,4 +47,20 @@
     </div>
     </div>
   </footer><!-- /footer -->
+  <script src="script.js"></script> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script type="text/javascript">
+$(function(){
+ $("#menu-show").click(function(){
+    if($("nav").hasClass("show")){
+      $("nav").removeClass("show")
+      $(".sp-menu").slideUp();
+      }else{
+      $("nav").addClass("show")
+      $(".sp-menu").slideDown();
+    }});
+});
+</script>
+</body>
+</html>
   <?php wp_footer(); ?>
