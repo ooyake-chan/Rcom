@@ -64,7 +64,7 @@
           </ul>
         </div>
         <div id="info-cov">
-          <button class="btn cov-btn" onclick="location.href='product/product_part'">コロナ対策製品</button>
+          <button class="btn cov-btn" onclick="location.href='/product/part'">コロナ対策製品</button>
         </div>
       </div>
     </div>
@@ -84,7 +84,7 @@
               </div>
               <h3>アクリル加工品</h3>
               <p>ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト</p>
-              <a class="link" href="product/product_acrylic.html"></a>
+              <a class="link" href="/product/acrylic"></a>
               <button class="btn sp-more-btn">もっと見る</button>
             </div>
           </div>
@@ -96,7 +96,7 @@
               </div>
               <h3>アクリル加工品</h3>
               <p>ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト</p>
-              <a class="link" href="product/product_display.html"></a>
+              <a class="link" href="/product/display"></a>
               <button class="btn sp-more-btn">もっと見る</button>
             </div>
           </div>
@@ -108,33 +108,33 @@
               </div>
               <h3>アクリル加工品</h3>
               <p>ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト</p>
-              <a class="link" href="product/product_monitor.html"></a>
+              <a class="link" href="/product/monitor"></a>
               <button class="btn sp-more-btn">もっと見る</button>
             </div>
           </div>
         </div>
         <div>
-          <button class="btn cov-btn product-cov-btn" onclick="location.href='product/product_part.html'">コロナ対策製品</button>
+          <button class="btn cov-btn product-cov-btn" onclick="location.href='product/part'">コロナ対策製品</button>
         </div>
       </div><!-- /top-product -->
       <div class="top-flow-wrap">  
         <div id="top-flow" style="  background-image: url(<?php echo get_template_directory_uri(); ?>/img/top-flow-gb.png);background-size: cover;"></div>
         <div class="flow-cover"></div>
-        <a href="flow.html" class="link"></a>
+        <a href="flow" class="link"></a>
         <div id="top-flow-contents">
           <h2>製造工程</h2>
           <p>ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストーテキストーテキストーテキストーテキスト</p>
           <img src="<?php echo get_template_directory_uri(); ?>/img/view-more.png" alt="もっと見る">
-          <a href="flow.html" class="link"></a>
+          <a href="flow" class="link"></a>
         </div>
       </div><!-- top-flow -->
       <div id="top-company">
         <div class="container wrapper">
           <div class="top-company-card">
-            <a href="company.html" class="link"></a>
+            <a href="company" class="link"></a>
             <div class="top-company-img">
               <div class="cover"><div class="view-more"></div></div>
-              <a href="company.html" class="link"></a>
+              <a href="company" class="link"></a>
               <img src="<?php echo get_template_directory_uri(); ?>/img/top-comp-1.png" alt="握手している写真" class="pc-img">
               <img src="<?php echo get_template_directory_uri(); ?>/img/sp-top-comp.png" alt="握手している写真" class="sp-img">
             </div>
@@ -146,10 +146,10 @@
           </div>
           
           <div class="top-company-card">
-            <a href="greet.html" class="link"></a>
+            <a href="greet" class="link"></a>
             <div class="top-company-img">
               <div class="cover"><div class="view-more"></div></div>
-              <a href="greet.html" class="link"></a>
+              <a href="greet" class="link"></a>
               <img src="<?php echo get_template_directory_uri(); ?>/img/top-comp-2.png" alt="握手している写真"class="pc-img">
               <img src="<?php echo get_template_directory_uri(); ?>/img/sp-top-greet.png" alt="握手している写真" class="sp-img">
             </div>
@@ -161,10 +161,10 @@
           </div>
           
           <div class="top-company-card">
-            <a href="recruit.html" class="link"></a>
+            <a href="recruit" class="link"></a>
             <div class="top-company-img">
               <div class="cover"><div class="view-more"></div></div>
-              <a href="recruit.html" class="link"></a>
+              <a href="recruit" class="link"></a>
               <img src="<?php echo get_template_directory_uri(); ?>/img/top-comp-3.png" alt="握手している写真"class="pc-img">
               <img src="<?php echo get_template_directory_uri(); ?>/img/sp-top-rec.png" alt="握手している写真" class="sp-img">
             </div>
@@ -187,7 +187,7 @@
               営業時間　平日午前9時から午後18時（土日祝はお休みです）</p>
               <p>お問い合わせフォーム・Emailは24時間受け付けています<br>
               <span>Email.</span>rcom-factory@email.com</p>
-              <button class="btn contact-btn" onclick="location.href='form.html'"><img src="<?php echo get_template_directory_uri(); ?>/img/mail.png" alt="封筒のイラスト"><p>お問い合わせ</p></button>
+              <button class="btn contact-btn" onclick="location.href='form'"><img src="<?php echo get_template_directory_uri(); ?>/img/mail.png" alt="封筒のイラスト"><p>お問い合わせ</p></button>
             </div>
             <div id="contact-img">
               <img src="<?php echo get_template_directory_uri(); ?>/img/contact-map.png" alt="地図" class="pc-img">
