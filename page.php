@@ -31,8 +31,11 @@
       </div>
       <div class="clear"></div><!-- パンくずリスト -->
       <h1><?php the_title(); ?></h1>
+    </div>
+    </div><!-- header -->
+    <div class="conteiner wrapper contents">
+      
       <?php the_content(); ?>
-
 
       <?php
         endwhile;
