@@ -15,16 +15,16 @@
       <div class="site-map">
         <h3>製造工程</h3>
         <ul>
-          <li><a href="flow">ご注文から納品までのフロー</a></li>
-          <li><a href="equipment">加工設備</a></li>
+          <li><a href="<?php echo home_url('/'); ?>flow">ご注文から納品までのフロー</a></li>
+          <li><a href="<?php echo home_url('/'); ?>flow/equipment">加工設備</a></li>
         </ul>
       </div>
       <div class="site-map">
-        <a href="company"><h3>会社概要</h3></a>
-        <a href="greet"><h3>社長挨拶</h3></a>
-        <a href="recruit"><h3>採用情報</h3></a>
+        <a href="<?php echo home_url('/'); ?>company"><h3>会社概要</h3></a>
+        <a href="<?php echo home_url('/'); ?>greet"><h3>社長挨拶</h3></a>
+        <a href="<?php echo home_url('/'); ?>recruit"><h3>採用情報</h3></a>
         <ul>
-          <li><a href="interview">社員インタビュー</a></li>
+          <li><a href="<?php echo home_url('/'); ?>recruit/interview">社員インタビュー</a></li>
         </ul>
       </div>
     </div>
