@@ -39,7 +39,7 @@
       </div>
       <div id="foot-address">
         <h3>会社所在地</h3>
-        <p>東京都町田市木祖9854-11-13</p>
+        <p>東京都かもめ町朝顔台たんぽぽ団地9854-11-13</p>
       </div>
     </div>
     <div class="copy-right">

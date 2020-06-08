@@ -194,7 +194,7 @@
           <h2>お問い合わせ</h2>
           <div id="contact-wrapper">
             <div id="contact-contents">
-              <p>東京都町田市木祖9854-11-13</p>
+              <p>東京都かもめ町朝顔台たんぽぽ団地9854-11-13</p>
               <p>お気軽にお問い合わせ下さい<br>
                 <span>Tel.</span>0438-000-000<span>Fax.</span>0438-000-000<br>
               営業時間　平日午前9時から午後18時（土日祝はお休みです）</p>
@@ -203,8 +203,7 @@
               <button class="btn contact-btn" onclick="location.href='form'"><img src="<?php echo get_template_directory_uri(); ?>/img/mail.png" alt="封筒のイラスト"><p>お問い合わせ</p></button>
             </div>
             <div id="contact-img">
-              <img src="<?php echo get_template_directory_uri(); ?>/img/contact-map.png" alt="地図" class="pc-img">
-              <img src="<?php echo get_template_directory_uri(); ?>/img/contact-map.png" alt="地図" class="sp-img">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.408716954569!2d139.73577081489466!3d35.6423005397142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bba401e72d1%3A0xc129f2ffe867138!2z5pyd6aGU44Gu5LqV5oi4!5e0!3m2!1sja!2sjp!4v1591599285816!5m2!1sja!2sjp" width="420" height="420" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
             </div>
           </div>
         </div>
