@@ -170,8 +170,7 @@ li{
       float: left;
     }
         .header li::after{
-          content:'>';
-          color: white;
+          content:url(http://rcom.local/wp-content/uploads/2020/06/arrow-2.png);
           padding: 0 0.5em;
         }
         .header li:last-child::after{
@@ -239,8 +238,7 @@ footer{
             color:#2371c7;
           }
           .site-map a h3::before{
-             content:'>';
-             color: white;
+             content:url(http://rcom.local/wp-content/uploads/2020/06/arrow-2.png);
              margin-right: 5px;
           }
           .site-map h3{
