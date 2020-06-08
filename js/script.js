@@ -16,15 +16,7 @@ $(function(){
       autoplay:true,
       arrows:false,
       
-  });
-  $(function(){
-   $("#menu-show").click(function(){
-      if($("nav").hasClass("show")){
-        $("nav").removeClass("show")
-        $(".sp-menu").slideUp();
-        }else{
-        $("nav").addClass("show")
-        $(".sp-menu").slideDown();
-      }});
-  });
+    });
+  
+
  });

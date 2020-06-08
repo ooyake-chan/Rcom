@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>">
-  <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.js"></script>
   <title>アールコム工商株式会社</title>
 </head>
 <body>
@@ -232,15 +231,6 @@ $(function(){
     $("#main-visual").css('background-image',`url(${mainImg[2]})`);
   });
 
-  $("#menu-show").click(function(){
-    if($("nav").hasClass("show")){
-      $("nav").removeClass("show")
-      $(".sp-menu").slideUp();
-      }else{
-      $("nav").addClass("show")
-      $(".sp-menu").slideDown();
-    }
-  });
 });
 </script>
 </body>
