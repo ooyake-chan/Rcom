@@ -25,7 +25,7 @@
           <li itemprop="itemListElement" itemscope
                 itemtype="https://schema.org/ListItem">
               <a itemprop="item" href="#">
-                  <span itemprop="name">2020年</span>
+                  <span itemprop="name"><?php echo the_title(); ?></span>
               </a>
               <meta itemprop="position" content="2" />
             </li>

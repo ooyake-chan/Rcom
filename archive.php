@@ -7,7 +7,7 @@
             <!-- 1つめ -->
             <li itemprop="itemListElement" itemscope
                 itemtype="https://schema.org/ListItem">
-              <a itemprop="item" href="index.html">
+              <a itemprop="item" href="<?php home_url('/'); ?>">
                   <span itemprop="name">ホーム</span>
               </a>
               <meta itemprop="position" content="1" />
@@ -16,16 +16,8 @@
             <!-- 2つめ -->
             <li itemprop="itemListElement" itemscope
                 itemtype="https://schema.org/ListItem">
-              <a itemprop="item" href="archives.html">
-                  <span itemprop="name">お知らせ</span>
-              </a>
-              <meta itemprop="position" content="2" />
-            </li>
-            <!-- 3つめ -->
-            <li itemprop="itemListElement" itemscope
-                itemtype="https://schema.org/ListItem">
-              <a itemprop="item" href="#">
-                  <span itemprop="name">2020年</span>
+              <a itemprop="item" href="<?php get_the_category(); ?>">
+                  <span itemprop="name"><?php echo the_category('・'); ?></span>
               </a>
               <meta itemprop="position" content="2" />
             </li>

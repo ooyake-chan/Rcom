@@ -16,16 +16,8 @@
             <!-- 2つめ -->
             <li itemprop="itemListElement" itemscope
                 itemtype="https://schema.org/ListItem">
-              <a itemprop="item" href="<?php home_url('/'); ?>archives">
-                  <span itemprop="name">お知らせ</span>
-              </a>
-              <meta itemprop="position" content="2" />
-            </li>
-            <!-- 3つめ -->
-            <li itemprop="itemListElement" itemscope
-                itemtype="https://schema.org/ListItem">
-              <a itemprop="item" href="#">
-                  <span itemprop="name"><?php the_title(); ?></span>
+              <a itemprop="item" href="<?php get_the_date('Y'); ?>">
+                  <span itemprop="name"><?php echo get_the_date('Y'); ?>年</span>
               </a>
               <meta itemprop="position" content="2" />
             </li>
