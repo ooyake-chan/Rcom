@@ -54,11 +54,7 @@
       <div class="clear"></div><!-- パンくずリスト -->
       <h1><?php the_title(); ?></h1>
 <!-- カテゴリの説明文 -->
-<?php if (is_category() && //カテゴリページの時
-          !is_paged() &&   //カテゴリページのトップの時
-          category_description()) : //カテゴリの説明文が空でない時 ?>
-<div class="category-description"><?php echo category_description(); ?></div>
-<?php endif; ?>
+    <p><?php echo post_custom('ページの説明'); ?></p>
     </div>
     </div><!-- header -->
     <div class="conteiner wrapper contents">
