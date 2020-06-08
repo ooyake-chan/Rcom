@@ -54,11 +54,12 @@
           </div>
         </div>
       </div>
+
       <div class="info-wrapper">
         <h2>お知らせ</h2>
         <div class="info">
           <ul>
-            <?php for($i=1;$i <= 2;$i++) : ?>
+            <!-- ループここから -->
             <?php if(have_posts()): ?>
             <?php while(have_posts()): the_post(); ?>
 
@@ -68,13 +69,13 @@
             <?php the_excerpt(); ?>
           </li>
         </a>
-
             <?php endwhile; ?>
+            <?php wp_reset_postdata(); ?>
             <?php endif; ?>
-            <?php endfor; ?>
-        
+            <!-- ループここまで -->
           </ul>
         </div>
+
         <div id="info-cov">
           <button class="btn cov-btn" onclick="location.href='/product/part'">コロナ対策製品</button>
         </div>

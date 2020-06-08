@@ -38,16 +38,22 @@
   
 
 .info-wrapper{
+  padding-top: 50px;
+  margin-bottom: 2em;
   display: flex;
-  padding: 2em;
 } 
     .info-wrapper h2{
       margin-top: 8px;
       margin-right: 15px;
+      color: #093F7C;
     } 
     #li-first{
       border-bottom: 2px solid #093F7C;
     }
+      .info{
+        height: 125px;
+        overflow: scroll;
+      }
       .info ul{
         list-style: none;
       }
