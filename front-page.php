@@ -58,7 +58,7 @@
         <h2>お知らせ</h2>
         <div class="info">
           <ul>
-          
+            <?php for($i=1;$i <= 2;$i++) : ?>
             <?php if(have_posts()): ?>
             <?php while(have_posts()): the_post(); ?>
 
@@ -71,6 +71,7 @@
 
             <?php endwhile; ?>
             <?php endif; ?>
+            <?php endfor; ?>
         
           </ul>
         </div>
