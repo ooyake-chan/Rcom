@@ -201,6 +201,7 @@ nav.show .sp-menu-cover{
   .info-wrapper{
     padding: 30px;
     display: block;
+    background-color: white;
   } 
       .info-wrapper h2{
         margin-top: 0;
@@ -215,6 +216,9 @@ nav.show .sp-menu-cover{
           line-height: 1.8em;
           background:none;
           font-size: 14px;
+        }
+        .info ul li span{
+          padding-left: 1.5em;
         }
         .info ul li span::after{
           content: '\A';

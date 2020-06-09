@@ -217,6 +217,7 @@ h5{
   }
   .interview-wrapper img{
     margin:1.5em 0;
+    width: 100%;
   }
   .q-img{
     /* float: left; */

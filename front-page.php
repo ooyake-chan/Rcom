@@ -44,7 +44,7 @@
       <div class="wrapper">
         <div id="sp-main-visual"></div>
         <div id="explain-card">
-          <h1>アールコム工商</h1>
+          <h1>アールコム工商tesusite</h1>
           <p class="explain-text-1">ダミーテキストくぁｗせｄｒｆｔｇｙふじこｌｐ；＠：「」ダミーテキストくぁｗせｄｒｆｔｇｙふじこｌｐ；＠：「」ダミーテキストくぁｗせｄｒｆｔｇｙふじ：「」ダミーテキストくぁｗせｄｒｆｔｇｙふじこｌｐ；＠：「」ダミーテキストくぁｗせｄｒｆｔｇｙふじこｌｐ；＠：「」</p>
           <div class="flex explain-change">
             <p id="explain-change-1">●</p>
