@@ -55,7 +55,7 @@
   background-image: none;
 }
   #sp-main-visual{
-  background-image:url(img/sp-main.png);
+  background-image:url(/wp-content/uploads/2020/06/sp-main.png);
   background-size: cover;
   height: 350px;
 }
@@ -288,7 +288,7 @@ nav.show .sp-menu-cover{
 #top-flow{
   padding: 70px 0;
   border-top:none;
-  background-image: url(img/sp-top-flow.png);
+  background-image: url(/wp-content/uploads/2020/06/sp-top-flow.png);
 }
     #top-flow-contents{
       width: 90%;
