@@ -1,37 +1,14 @@
-<?php get_header(); ?> 
-<main>
+<?php get_header(); ?>
+  <main>
     <div class="header">
-    <div class="wrapper">
-      <div class="bread">
-        <ol itemscope itemtype="https://schema.org/BreadcrumbList">
-          <!-- 1つめ -->
-          <li itemprop="itemListElement" itemscope
-              itemtype="https://schema.org/ListItem">
-            <a itemprop="item" href="<?php echo home_url(); ?>">
-                <span itemprop="name">ホーム</span>
-            </a>
-            <meta itemprop="position" content="1" />
-          </li>
-        
-          <!-- 2つめ -->
-          <li itemprop="itemListElement" itemscope
-              itemtype="https://schema.org/ListItem">
-            <a itemprop="item" href="<?php echo home_url('/'); ?>2020">
-                <span itemprop="name">お知らせ</span>
-            </a>
-            <meta itemprop="position" content="2" />
-          </li>
-          <!-- 3つめ -->
-          <li itemprop="itemListElement" itemscope
-                itemtype="https://schema.org/ListItem">
-              <a itemprop="item" href="#">
-                  <span itemprop="name"><?php echo the_title(); ?></span>
-              </a>
-              <meta itemprop="position" content="2" />
-            </li>
-        </ol>
-      </div>
-      <div class="clear"></div><!-- パンくずリスト -->
+      <div class="wrapper">
+        <div class="breadcrumbs bread" typeof="BreadcrumbList" vocab="https://schema.org/">
+    <?php if(function_exists('bcn_display'))
+    {
+        bcn_display();
+    }?>
+</div>
+        <div class="clear"></div><!-- パンくずリスト -->
       <h1><?php the_title(); ?></h1>
 <!-- カテゴリの説明文 -->
 <?php if (is_category() && //カテゴリページの時
@@ -65,7 +42,7 @@
       <div class="archives-wrapper"><!-- お知らせここから -->
         <div class="archive-head">
           <p>
-          <time><?php the_date(); ?></time><span class="information"><?php the_category(','); ?></span>
+          <time><?php the_time('Y年m月d日'); ?></time><span class="information"><?php the_category(','); ?></span>
           </p>
           <h2>
             <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
