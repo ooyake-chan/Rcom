@@ -53,8 +53,6 @@
     }
       .info{
         width: 100%;
-        height: 125px;
-        overflow: scroll;
       }
       .info ul{
         list-style: none;

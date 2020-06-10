@@ -10,6 +10,10 @@
  
 add_filter( 'wp_get_attachment_url', 'delete_domain_from_attachment_url' );
 
+function twpp_change_excerpt_length( $length ) {
+  return 25; 
+}
+add_filter( 'excerpt_length', 'twpp_change_excerpt_length', 999 );
 
 remove_action('wp_head', 'wp_generator');// WordPressのバージョン
 remove_action('wp_head', 'wp_shortlink_wp_head');// 短縮URLのlink

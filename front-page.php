@@ -60,18 +60,25 @@
         <div class="info">
           <ul>
             <!-- ループここから -->
-            <?php if(have_posts()): ?>
-            <?php while(have_posts()): the_post(); ?>
+            <?php $args = array(
+                'post_type'   => 'post',
+                'numberposts' => 2, //取得件数をデフォルト値から変更
+                'orderby'     => 'date',
+                'order'       => 'DESC',
+                );
+              $myposts = get_posts( $args );
+              foreach ( $myposts as $post ) : setup_postdata( $post ); ?>
 
             <li id="li-first" style="background: url(<?php echo get_template_directory_uri(); ?>/img/arrow-right.png) left 0px top 3px no-repeat;background-size: 15px auto;">
-            <a href="<?php the_permalink(); ?>">
-            <span><?php the_date(); ?><?php the_title(); ?></span>
-            <?php the_excerpt(); ?>
-          </li>
-        </a>
-            <?php endwhile; ?>
-            <?php wp_reset_postdata(); ?>
-            <?php endif; ?>
+              <a href="<?php the_permalink(); ?>">
+                <span>
+                  <time><?php the_time('Y年m月d日'); ?></time>
+                  <?php the_title(); ?>
+                </span>
+                  <p><?php the_excerpt(); ?></p>
+              </a>
+            </li>
+          <?php endforeach; wp_reset_postdata(); ?>
             <!-- ループここまで -->
           </ul>
         </div>
