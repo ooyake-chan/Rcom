@@ -16,6 +16,12 @@
 }
 .form-wrapper input{
   margin-bottom:20px;
+  width: 90%;
+  border: none;
+}
+.form-wrapper textarea{
+  width: 90%;
+  border: none;
 }
 .submit-btn{
   width: 60%;
@@ -47,15 +53,6 @@
     margin: 0 auto;
     margin-top: 3.5rem;
     font-size: 1em;
-  }
-  .form-wrapper input{
-    width: 90%;
-    border: none;
-  }
-
-  .form-wrapper textarea{
-    width: 90%;
-    border: none;
   }
   .submit-btn{
     width: 90%;
