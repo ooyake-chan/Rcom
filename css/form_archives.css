@@ -49,9 +49,12 @@
     font-size: 1em;
   }
   .form-wrapper input{
+    width: 90%;
     border: none;
   }
+
   .form-wrapper textarea{
+    width: 90%;
     border: none;
   }
   .submit-btn{
