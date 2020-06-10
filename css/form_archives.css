@@ -131,6 +131,9 @@ time{
     width: 100%;
     line-height: 1.5rem;
   }
+  .archive-body img{
+    width: 100%;
+  }
   time{
     display: inline-block;
     margin-right: 30px;
