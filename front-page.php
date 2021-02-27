@@ -45,7 +45,9 @@
         <div id="sp-main-visual"></div>
         <div id="explain-card">
           <h1>アールコム工商tesusite</h1>
-          <p class="explain-text-1">ダミーテキストくぁｗせｄｒｆｔｇｙふじこｌｐ；＠：「」ダミーテキストくぁｗせｄｒｆｔｇｙふじこｌｐ；＠：「」ダミーテキストくぁｗせｄｒｆｔｇｙふじ：「」ダミーテキストくぁｗせｄｒｆｔｇｙふじこｌｐ；＠：「」ダミーテキストくぁｗせｄｒｆｔｇｙふじこｌｐ；＠：「」</p>
+          <p class="explain-text-1">
+            当サイトは勉強用に制作された<strong>架空の企業サイト</strong>です。実在する企業、商品ではありません。ご注意ください。製作者は公（ooyake）です。なにかありましたらご連絡ください<a href="https://twitter.com/OOyake_" style="color: yellow;">Twitter</a>
+          </p>
           <div class="flex explain-change">
             <p id="explain-change-1">●</p>
             <p id="explain-change-2">●</p>
