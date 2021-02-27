@@ -27,8 +27,8 @@
           </ul>
         </div>
         <div id="nav-contact">
-          <button class="btn contact-btn" onclick="location.href='/form'"><img src="<?php echo get_template_directory_uri(); ?>/img/mail.png" alt="封筒のイラスト"><p>お問い合わせ</p></button>
-          <button class="btn sp-contact-btn" onclick="location.href='/form'"><img src="<?php echo get_template_directory_uri(); ?>/img/mail.png" alt="封筒のイラスト"><p>お問い合せ</p></button>
+          <button class="btn contact-btn" onclick="location.href='<?php echo home_url('/'); ?>form'"><img src="<?php echo get_template_directory_uri(); ?>/img/mail.png" alt="封筒のイラスト"><p>お問い合わせ</p></button>
+          <button class="btn sp-contact-btn" onclick="location.href='<?php echo home_url('/'); ?>/form'"><img src="<?php echo get_template_directory_uri(); ?>/img/mail.png" alt="封筒のイラスト"><p>お問い合せ</p></button>
           <button class="btn sp-menu-btn" id="menu-show"><img src="<?php echo get_template_directory_uri(); ?>/img/menu-bar.png" alt="メニューバーのイラスト"><p>メニュー</p></button>
       </div>
     </div>
